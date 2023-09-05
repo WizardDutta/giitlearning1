@@ -1,2 +1,587 @@
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>0
 
-Time is : 2.309000 seconds
+Input new element : 45
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+45 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>10
+
+Input new element : 56
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>10
+
+Input new element : 21
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+45 56 21 
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>4
+Enter Element after : 45
+
+Input new element : 50
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function  
+3. To reverse print
+4. To insert element after a node       
+5. To insert element before a node      
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position        
+9. To reverse a linked list
+10. Append
+->>2
+45 50 56 21 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>5
+Enter Element before : 45
+
+Input new element : 89
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+89 45 50 56 21 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>6
+
+Input new element : 74
+
+Enter position : 3
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+89 45 74 50 56 21 
+
+Do you want to continue 1/0 ?
+7
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>89
+Sorry! wrong choice
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+89 45 74 50 56 21 
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>9
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+21 56 50 74 45 89 
+Do you want to continue 1/0 ?
+7
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>7
+Enter element to be deleted : 50
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+21 56 74 45 89 
+Do you want to continue 1/0 ?
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>0
+
+Input new element : 45
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+45 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>10
+
+Input new element : 56
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>10
+
+Input new element : 21
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+45 56 21 
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>4
+Enter Element after : 45
+
+Input new element : 50
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function  
+3. To reverse print
+4. To insert element after a node       
+5. To insert element before a node      
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position        
+9. To reverse a linked list
+10. Append
+->>2
+45 50 56 21 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>5
+Enter Element before : 45
+
+Input new element : 89
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+89 45 50 56 21 
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>6
+
+Input new element : 74
+
+Enter position : 3
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>2
+89 45 74 50 56 21 
+
+Do you want to continue 1/0 ?
+7
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>89
+Sorry! wrong choice
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+89 45 74 50 56 21 
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>9
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+21 56 50 74 45 89 
+Do you want to continue 1/0 ?
+7
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>7
+Enter element to be deleted : 50
+
+Do you want to continue 1/0 ?
+1
+Choose from the following:
+0. Create DLL
+1. To display list:
+2. To display using recursive function
+3. To reverse print
+4. To insert element after a node
+5. To insert element before a node
+6. To insert element at a given position
+7. To delete a given element
+8. To delete by a given position
+9. To reverse a linked list
+10. Append
+->>1
+21 56 74 45 89 
+Do you want to continue 1/0 ?
+0
