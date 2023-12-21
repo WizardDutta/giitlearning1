@@ -1,0 +1,105 @@
+FOR STATIC QUEUE
+
+
+Enter a number : 
+1. For static Q
+2. For dynamic que
+3. For circular q
+1
+
+Enter operation number :
+1. To insert
+2. To delete
+3. To display
+1
+
+Enter data : 569
+
+Do you want to continue ?
+1
+
+Enter operation number :
+1. To insert
+2. To delete
+3. To display
+1
+
+Enter data : 7896
+
+Do you want to continue ?
+1
+
+Enter operation number :
+1. To insert
+2. To delete
+3. To display
+3
+front->569->7896<-rear
+Do you want to continue ?
+1
+
+Enter operation number :
+1. To insert
+2. To delete
+3. To display
+2
+
+Deleted data : 569
+Do you want to continue ?
+0
+
+FOR DYNAMIC QUEUE
+
+Enter a number : 
+1. For static Q   
+2. For dynamic que
+3. For circular q 
+2
+
+Enter operation number : 
+1. To insert
+2. To delete
+3. To display
+1
+
+Enter data : 7896
+
+Do you want to continue ?
+1
+
+Enter operation number : 
+1. To insert
+2. To delete
+3. To display
+1
+
+Enter data : 456
+
+Do you want to continue ?
+1
+
+Enter operation number : 
+1. To insert
+2. To delete
+3. To display
+3
+
+front ->7896->456<-rear
+Do you want to continue ?
+1
+
+Enter operation number :
+1. To insert
+2. To delete
+3. To display
+2
+
+Deleted data : 7896
+Do you want to continue ?
+0
+
+FOR CIRCULAR QUEUE
+
+There is some UNEXPECTED ERROR IN THE display() function of circular queue,
+So I am trying to troubleshoot it, but unable to find the error.
+The front value in the display function gets reset to 0 every time it is called.

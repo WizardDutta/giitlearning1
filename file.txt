@@ -1,54 +1,204 @@
-Choose from the following:
-1. To display stack:
-2. To push
-3. To pop
-->>2
-Enter the element to be pushed
-->>589
-
-Do you want to continue 1/0 ?
-1
-Choose from the following:
-1. To display stack:      
-2. To push
-3. To pop
-->>2
-Enter the element to be pushed
-->>9635
-
-Do you want to continue 1/0 ?
-1
-Choose from the following:
-1. To display stack:      
-2. To push
-3. To pop
-->>2
-Enter the element to be pushed
-->>7954
-
-Do you want to continue 1/0 ?
-1
-Choose from the following:
-1. To display stack:
-2. To push
-3. To pop
+Enter data to initialize the root:
+->> 70
+1. Insert data
+2. Delete data
+3. Inorder print       
+4. Preorder print      
+5. Postorder print     
+6. Searching an element
+Enter your choice:     
 ->>1
-7954 9635 589 
-Do you want to continue 1/0 ?
-1
-Choose from the following:
-1. To display stack:
-2. To push
-3. To pop
+Enter data to be inserted:
+->> 30
+Do you want to continue (1/0)?->>1
+1. Insert data  
+2. Delete data  
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 80
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 50
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 20
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 75
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 90
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 40
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>1
+Enter data to be inserted:
+->> 60
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>6
+Enter the element to be searched
+->>50
+Element found
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>6
+Enter the element to be searched
+->>77
+Element not found
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
 ->>3
-
-Do you want to continue 1/0 ?
-1
-Choose from the following:
-1. To display stack:
-2. To push
-3. To pop
-->>1
-9635 589 
-Do you want to continue 1/0 ?
-0
+20 30 40 50 60 70 75 80 90 Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>5
+20 40 60 50 30 75 90 80 70 Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>4
+70 30 20 50 40 60 80 75 90 Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>2
+Enter the data to be deleted
+->>40
+Node successfully deleted
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice: 
+->>3
+20 30 50 60 70 75 80 90 Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>2
+Enter the data to be deleted
+->>50
+Node successfully deleted
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>3
+20 30 60 70 75 80 90 Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>2
+Enter the data to be deleted
+->>70
+Node successfully deleted
+Do you want to continue (1/0)?->>1
+1. Insert data
+2. Delete data
+3. Inorder print
+4. Preorder print
+5. Postorder print
+6. Searching an element
+Enter your choice:
+->>3
+20 30 60 75 80 90 Do you want to continue (1/0)?->>0

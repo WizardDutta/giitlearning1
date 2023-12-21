@@ -1,0 +1,5 @@
+Enter the postfix expression: 13 2+4*
+The evaluated answer is: 60
+
+Enter the postfix expression: 3 11+2^
+The evaluated answer is: 196

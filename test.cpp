@@ -8,20 +8,25 @@
 #define CLOCKRADIUS RADIUS+20
 #define PI 3.1415926535897
 
-void drawClock();
+void drawClock(int,int);
 void drawHands();
 int main()
-{
-    drawClock();
-    return 0;
-}
-void drawClock() //x and y coordinate of center
 {
     int gd=DETECT,gm;
     initgraph(&gd,&gm,(char*)"");
     int a,b;
     a = getmaxx()/2;
     b = getmaxy()/2;
+    drawClock(a, b);
+    drawHands(a, b);
+    getch();
+    closegraph();
+    return 0;
+}
+void drawClock(int a, int b) //x and y coordinate of center
+{
+    
+    
     circle(a,b,CLOCKRADIUS);
     int i=0;
     char ch[5];
@@ -30,11 +35,10 @@ void drawClock() //x and y coordinate of center
         sprintf(ch,"%d",i+1);
         outtextxy(a+RADIUS*cos(PI/6*i-PI/3),b+RADIUS*sin(PI/6*i-PI/3),(char*)ch);
     }
-    drawHands();
-    getch();
-    closegraph();
 }
-void drawHands()
+void drawHands(int a, int b, struct tm *time)
 {
+    int hourX,hourY;
     
+    hourX = a + (RADIUS-40)*cos(PI/6*time->tm_hour - PI/2);
 }

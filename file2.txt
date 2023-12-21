@@ -1,1 +1,40 @@
-I am the best
+
+Enter Value : 50
+
+ Want to quit ? 0
+Enter Value : 300
+
+ Want to quit ? 0
+Enter Value : 20
+
+ Want to quit ? 0
+Enter Value : 80
+
+ Want to quit ? 0
+Enter Value : 200
+
+ Want to quit ? 0
+Enter Value : 70
+
+ Want to quit ? 1
+Tree preorder = 
+100 Bf = 1      
+50 Bf = -1      
+20 Bf = 0       
+80 Bf = 1       
+70 Bf = 0
+300 Bf = 1
+
+Inorder
+20 50 70 80 100 200 300
+Enter the value you want to delete: 50
+Tree preorder =
+100 Bf = 0
+70 Bf = 0
+20 Bf = 0
+80 Bf = 0
+300 Bf = 1
+200 Bf = 0
+
+Inorder
+20 70 80 100 200 300    
