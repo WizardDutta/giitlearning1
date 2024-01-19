@@ -92,8 +92,8 @@ void infix_to_postfix()
             push(ch);
             break;
         case '^':
-            while(priority(ch)<priority(top_ele()))
-                postfix[j++] = pop();
+            // while(priority(ch)<priority(top_ele()))
+            //     postfix[j++] = pop();
             push(ch); //for its right associativity property
             break;
         case ')':
