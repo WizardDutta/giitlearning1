@@ -109,7 +109,7 @@ int main()
     // printlist();
     // reverseList();
     // printlist();
-    insertByPosition(5,80);
+    insertByPosition(2,80);
     printlist();
     // insertByPosition(1,80);
     // printlist();

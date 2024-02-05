@@ -63,7 +63,7 @@ void fibonacci_dowhile_loop(int n)
 int main()
 {
     int n;
-    printf("Ener number: ");
+    printf("Enter number: ");
     scanf("%d",&n);
     fibonacci_for_loop(n);
     fibonacci_while_loop(n);

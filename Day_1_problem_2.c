@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define bool int
+#include<stdbool.h>
 
 bool isprime(int n)
 {
@@ -45,46 +45,50 @@ bool isarmstrong(int n)
 void menu()
 {
     int choice;
-    printf("Enter any of the choices from 1 to 4\n");
-    printf("1. To check prime or not\n");
-    printf("2. To check armstrong number or not\n");
-    printf("3. To find the largest number among 3 integers\n");
-    printf("4. Exit\n");
-    scanf("%d",&choice);
-    int n;
-    int a,b,c;
-    switch (choice)
+    while(true)
     {
-        case 1:
-            printf("Enter an integer: ");
-            scanf("%d",&n);
-            printf("%s\n",isprime(n)?"yes":"no");
-            break;
-        case 2:
-            printf("Enter an integer: ");
-            scanf("%d",&n);
-            printf("%s\n",isarmstrong(n)?"yes":"no");
-            break;
-        case 3:
-            printf("Enter 3 integers: ");
-            scanf("%d%d%d",&a,&b,&c);
-            if(a>=b)
-            {
-                if(a>=c)
-                    printf("%d\n",a);
-                else
-                    printf("%d\n",c);
-            }
-            else{
-                if(b>=c)
-                    printf("%d\n",b);
-                else    
-                    printf("%d\n",c);
-            }
-        case 4:
-            exit(0);
-        default:
-            printf("Wrong choice!!!!!!\n");
+        printf("Enter any of the choices from 1 to 4\n");
+        printf("1. To check prime or not\n");
+        printf("2. To check armstrong number or not\n");
+        printf("3. To find the largest number among 3 integers\n");
+        printf("4. Exit\n");
+        scanf("%d",&choice);
+        int n;
+        int a,b,c;
+        switch (choice)
+        {
+            case 1:
+                printf("Enter an integer: ");
+                scanf("%d",&n);
+                printf("%s\n",isprime(n)?"yes":"no");
+                break;
+            case 2:
+                printf("Enter an integer: ");
+                scanf("%d",&n);
+                printf("%s\n",isarmstrong(n)?"yes":"no");
+                break;
+            case 3:
+                printf("Enter 3 integers: ");
+                scanf("%d%d%d",&a,&b,&c);
+                if(a>=b)
+                {
+                    if(a>=c)
+                        printf("%d\n",a);
+                    else
+                        printf("%d\n",c);
+                }
+                else{
+                    if(b>=c)
+                        printf("%d\n",b);
+                    else    
+                        printf("%d\n",c);
+                }
+                break;
+            case 4:
+                exit(0);
+            default:
+                printf("Wrong choice!!!!!!\n");
+        }
     }
 }
 int main()
