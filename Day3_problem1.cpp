@@ -19,8 +19,10 @@ int main()
 
     int x = getmaxx() / 2;
     int y = getmaxy() / 2;
-
+    int page = 0;
     while (!kbhit()) {
+        setactivepage(page); //These two lines are used to implement double buffering
+        setvisualpage(1-page);
         cleardevice();
         rawTime = time(NULL);
         currentTime = localtime(&rawTime);
@@ -29,7 +31,8 @@ int main()
         drawHands(x, y, currentTime);
         drawDigitalClock(x, y + RADIUS + 20, currentTime);
 
-        delay(1000);
+        delay(10); //takes time in milisecond
+        page = 1-page; //page: 0->1 or 1->0
     }
 
     closegraph();
@@ -41,7 +44,7 @@ void drawClock(int x, int y)
     circle(x, y, RADIUS);
     circle(x, y, RADIUS + 1);
 
-    for (int i = 0; i < 12; i++) {
+    for (int i = 0; i < 12; i++) { //clockwise variation of angle
         int innerX = x + (RADIUS - 10) * cos(M_PI / 6 * i);
         int innerY = y + (RADIUS - 10) * sin(M_PI / 6 * i);
         int outerX = x + RADIUS * cos(M_PI / 6 * i);

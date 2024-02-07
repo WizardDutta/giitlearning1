@@ -28,7 +28,7 @@ void execute()
                 flag=1;
             }
         }
-        flag=(flag==0)?1:0;
+        flag=1-flag;
     }
 
 
